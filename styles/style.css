@@ -5,3 +5,8 @@ button{
   margin:10px 0;
   font-size:14px;
 }
+#show div div{
+  display:inline-block;
+  color:#aaa;
+  margin-right:10px;
+}
