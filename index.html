@@ -18,9 +18,32 @@
   };
   firebase.initializeApp(config);
 </script>  
+    
+    
+<!-- Firebase App is always required and must be first -->
+<script src="https://www.gstatic.com/firebasejs/5.9.1/firebase-app.js"></script>
+
+<!-- Add additional services that you want to use -->
+<script src="https://www.gstatic.com/firebasejs/5.9.1/firebase-auth.js"></script>
+<script src="https://www.gstatic.com/firebasejs/5.9.1/firebase-database.js"></script>
+<script src="https://www.gstatic.com/firebasejs/5.9.1/firebase-firestore.js"></script>
+<script src="https://www.gstatic.com/firebasejs/5.9.1/firebase-messaging.js"></script>
+<script src="https://www.gstatic.com/firebasejs/5.9.1/firebase-functions.js"></script>
+
+<!-- Comment out (or don't include) services that you don't want to use -->
+<!-- <script src="https://www.gstatic.com/firebasejs/5.9.1/firebase-storage.js"></script> -->
+
+<script>
+  var config = {
+    // ...
+  };
+  firebase.initializeApp(config);
+</script>
+
+    
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 
-    </head>
+</head>
 
 <body>
  <h1> 適合耍憨2 </h1>
@@ -29,5 +52,26 @@
   <button id="btn">送出資料</button>
   <br/>
   <div id="show"></div>
+    
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/6.0.4/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#config-web-app -->
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyAKWzg-MrMN5fpVIKMEVaaMHULzZkPjCWs",
+    authDomain: "willywebchat.firebaseapp.com",
+    databaseURL: "https://willywebchat.firebaseio.com",
+    projectId: "willywebchat",
+    storageBucket: "willywebchat.appspot.com",
+    messagingSenderId: "592532642619",
+    appId: "1:592532642619:web:b598c2db540761f3"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+</script>   
 </body>
 </html>
