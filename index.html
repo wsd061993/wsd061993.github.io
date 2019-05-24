@@ -3,12 +3,27 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
   <title>即時聊天室</title>
-  <script src="https://www.gstatic.com/firebasejs/3.6.2/firebase.js"></script>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-</head>
+<script src="https://www.gstatic.com/firebasejs/5.9.1/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  // TODO: Replace with your project's customized code snippet
+  var config = {
+    apiKey: "AIzaSyAKWzg-MrMN5fpVIKMEVaaMHULzZkPjCWs",
+    authDomain: "willywebchat.firebaseapp.com",
+    databaseURL: "https://willywebchat.firebaseio.com",
+    projectId: "willywebchat",
+    storageBucket: "willywebchat.appspot.com",
+    messagingSenderId: "592532642619",
+    appId: "1:592532642619:web:b598c2db540761f3"
+  };
+  firebase.initializeApp(config);
+</script>  
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+
+    </head>
 
 <body>
- <h1> 適合耍憨1 </h1>
+ <h1> 適合耍憨2 </h1>
   姓名：<input id="name"><br/>
   聊天內容：<input id="content"><br/>
   <button id="btn">送出資料</button>
