@@ -1,4 +1,3 @@
-$(document).reday(function(){
 var firebase;
 $(function(){
   var $name = $('#name'),
@@ -10,7 +9,10 @@ $(function(){
     apiKey: "AIzaSyAKWzg-MrMN5fpVIKMEVaaMHULzZkPjCWs",
     authDomain: "willywebchat.firebaseapp.com",
     databaseURL: "https://willywebchat.firebaseio.com",
-    storageBucket: "bucket.appspot.com"
+    projectId: "willywebchat",
+    storageBucket: "willywebchat.appspot.com",
+    messagingSenderId: "592532642619",
+    appId: "1:592532642619:web:b598c2db540761f3"
   };
   firebase.initializeApp(config);
   var database = firebase.database().ref();
@@ -67,5 +69,4 @@ $(function(){
   });
   
   
-});
 });
