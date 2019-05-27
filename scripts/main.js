@@ -1,3 +1,4 @@
+$(document).reday(function(){
 var firebase;
 $(function(){
   var $name = $('#name'),
@@ -67,4 +68,4 @@ $(function(){
   
   
 });
-
+});
