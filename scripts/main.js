@@ -1,4 +1,3 @@
-var firebase;
 $(function(){
   var $name = $('#name'),
       $content = $('#content'),
