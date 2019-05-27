@@ -1,3 +1,4 @@
+var firebase;
 $(function(){
   var $name = $('#name'),
       $content = $('#content'),
@@ -67,8 +68,8 @@ $(function(){
   // Set the configuration for your app
   // TODO: Replace with your project's config object
   var config = {
-    apiKey: "apiKey",
-    authDomain: "projectId.firebaseapp.com",
+    apiKey: "AIzaSyAKWzg-MrMN5fpVIKMEVaaMHULzZkPjCWs",
+    authDomain: "willywebchat.firebaseapp.com",
     databaseURL: "https://willywebchat.firebaseio.com",
     storageBucket: "bucket.appspot.com"
   };
