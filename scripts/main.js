@@ -6,7 +6,10 @@ $(function(){
       $show = $('#show'),
       ms = new Date().getTime();
   var config = {
-    databaseURL: "https://willywebchat.firebaseio.com/"
+    apiKey: "AIzaSyAKWzg-MrMN5fpVIKMEVaaMHULzZkPjCWs",
+    authDomain: "willywebchat.firebaseapp.com",
+    databaseURL: "https://willywebchat.firebaseio.com",
+    storageBucket: "bucket.appspot.com"
   };
   firebase.initializeApp(config);
   var database = firebase.database().ref();
@@ -65,15 +68,3 @@ $(function(){
   
 });
 
-  // Set the configuration for your app
-  // TODO: Replace with your project's config object
-  var config = {
-    apiKey: "AIzaSyAKWzg-MrMN5fpVIKMEVaaMHULzZkPjCWs",
-    authDomain: "willywebchat.firebaseapp.com",
-    databaseURL: "https://willywebchat.firebaseio.com",
-    storageBucket: "bucket.appspot.com"
-  };
-  firebase.initializeApp(config);
-
-  // Get a reference to the database service
-  var database = firebase.database();
